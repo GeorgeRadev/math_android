@@ -104,7 +104,7 @@
         android:layout_column="0"
         android:layout_gravity="fill_horizontal"
         android:columnCount="5"
-        android:rowCount="10">
+        android:rowCount="15">
 
         <TextView
             android:id="@+id/operationText"
@@ -163,7 +163,6 @@
             android:backgroundTint="@color/red_300"
             android:text="X" />
 
-
         <View
             android:id="@+id/numberLine"
             android:layout_height="30dp"
@@ -174,17 +173,6 @@
             android:background="@color/white" />
 
         <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/number0"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_row="5"
-            android:layout_column="0"
-            android:layout_gravity="center"
-            android:background="@color/purple_200"
-            android:text="0"
-            android:textSize="22dp" />
-
-        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/number1"
             android:layout_width="50dp"
             android:layout_height="50dp"
@@ -193,7 +181,7 @@
             android:layout_gravity="center"
             android:background="@color/purple_200"
             android:text="1"
-            android:textSize="22dp" />
+            android:textSize="22sp" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/number2"
@@ -204,7 +192,7 @@
             android:layout_gravity="center"
             android:background="@color/purple_200"
             android:text="2"
-            android:textSize="22dp" />
+            android:textSize="22sp" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/number3"
@@ -215,18 +203,7 @@
             android:layout_gravity="center"
             android:background="@color/purple_200"
             android:text="3"
-            android:textSize="22dp" />
-
-        <androidx.appcompat.widget.AppCompatButton
-            android:id="@+id/number4"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_row="5"
-            android:layout_column="4"
-            android:layout_gravity="center"
-            android:background="@color/purple_200"
-            android:text="4"
-            android:textSize="22dp" />
+            android:textSize="22sp" />
 
         <View
             android:id="@+id/numberSeparator"
@@ -238,64 +215,114 @@
             android:background="@color/white" />
 
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/number4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="7"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:background="@color/purple_200"
+            android:text="4"
+            android:textSize="22sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/number5"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_row="7"
-            android:layout_column="0"
+            android:layout_column="2"
             android:layout_gravity="center"
             android:background="@color/purple_200"
             android:text="5"
-            android:textSize="22dp" />
+            android:textSize="22sp" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/number6"
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_row="7"
-            android:layout_column="1"
+            android:layout_column="3"
             android:layout_gravity="center"
             android:background="@color/purple_200"
             android:text="6"
-            android:textSize="22dp" />
+            android:textSize="22sp" />
+
+        <View
+            android:id="@+id/numberSeparator2"
+            android:layout_height="10dp"
+            android:layout_row="8"
+            android:layout_column="0"
+            android:layout_columnSpan="5"
+            android:layout_gravity="fill"
+            android:background="@color/white" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/number7"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_row="7"
-            android:layout_column="2"
+            android:layout_row="9"
+            android:layout_column="1"
             android:layout_gravity="center"
             android:background="@color/purple_200"
             android:text="7"
-            android:textSize="22dp" />
+            android:textSize="22sp" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/number8"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_row="7"
-            android:layout_column="3"
+            android:layout_row="9"
+            android:layout_column="2"
             android:layout_gravity="center"
             android:background="@color/purple_200"
             android:text="8"
-            android:textSize="22dp" />
+            android:textSize="22sp" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/number9"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_row="7"
-            android:layout_column="4"
+            android:layout_row="9"
+            android:layout_column="3"
             android:layout_gravity="center"
             android:background="@color/purple_200"
             android:text="9"
-            android:textSize="22dp" />
+            android:textSize="22sp" />
+
+
+        <View
+            android:id="@+id/numberSeparator4"
+            android:layout_height="10dp"
+            android:layout_row="10"
+            android:layout_column="0"
+            android:layout_columnSpan="5"
+            android:layout_gravity="fill"
+            android:background="@color/white" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/number0"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_row="11"
+            android:layout_column="2"
+            android:layout_gravity="center"
+            android:background="@color/purple_200"
+            android:text="0"
+            android:textSize="22sp" />
+
+        <View
+            android:id="@+id/numberSeparator3"
+            android:layout_height="10dp"
+            android:layout_row="12"
+            android:layout_column="0"
+            android:layout_columnSpan="5"
+            android:layout_gravity="fill"
+            android:background="@color/white" />
 
 
         <LinearLayout
             android:layout_width="0dp"
-            android:layout_row="8"
+            android:layout_row="13"
             android:layout_column="0"
             android:layout_columnWeight="1">
 
@@ -307,7 +334,7 @@
 
         <LinearLayout
             android:layout_width="0dp"
-            android:layout_row="8"
+            android:layout_row="13"
             android:layout_column="1"
             android:layout_columnWeight="1">
 
@@ -319,7 +346,7 @@
 
         <LinearLayout
             android:layout_width="0dp"
-            android:layout_row="8"
+            android:layout_row="13"
             android:layout_column="2"
             android:layout_columnWeight="1">
 
@@ -331,7 +358,7 @@
 
         <LinearLayout
             android:layout_width="0dp"
-            android:layout_row="8"
+            android:layout_row="13"
             android:layout_column="3"
             android:layout_columnWeight="1">
 
@@ -343,7 +370,7 @@
 
         <LinearLayout
             android:layout_width="0dp"
-            android:layout_row="8"
+            android:layout_row="13"
             android:layout_column="4"
             android:layout_columnWeight="1">
 
@@ -357,7 +384,7 @@
         <View
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_row="9"
+            android:layout_row="14"
             android:layout_column="0"
             android:layout_columnSpan="5"
             android:layout_gravity="fill"
